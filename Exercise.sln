@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise", "Exercise\Exercise.vcxproj", "{ABCFC241-9EC5-4375-8226-4C04A1978184}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++ Primer 5th", "C++ Primer 5th", "{9974849A-244A-42D0-BE5C-B29F8F67FA5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex1_3", "ex1_3\ex1_3.vcxproj", "{9B2DB50C-C4EC-43AA-A722-461F0B711834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +15,20 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ABCFC241-9EC5-4375-8226-4C04A1978184}.Debug|x64.ActiveCfg = Debug|x64
-		{ABCFC241-9EC5-4375-8226-4C04A1978184}.Debug|x64.Build.0 = Debug|x64
-		{ABCFC241-9EC5-4375-8226-4C04A1978184}.Debug|x86.ActiveCfg = Debug|Win32
-		{ABCFC241-9EC5-4375-8226-4C04A1978184}.Debug|x86.Build.0 = Debug|Win32
-		{ABCFC241-9EC5-4375-8226-4C04A1978184}.Release|x64.ActiveCfg = Release|x64
-		{ABCFC241-9EC5-4375-8226-4C04A1978184}.Release|x64.Build.0 = Release|x64
-		{ABCFC241-9EC5-4375-8226-4C04A1978184}.Release|x86.ActiveCfg = Release|Win32
-		{ABCFC241-9EC5-4375-8226-4C04A1978184}.Release|x86.Build.0 = Release|Win32
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834}.Debug|x64.ActiveCfg = Debug|x64
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834}.Debug|x64.Build.0 = Debug|x64
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834}.Debug|x86.Build.0 = Debug|Win32
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834}.Release|x64.ActiveCfg = Release|x64
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834}.Release|x64.Build.0 = Release|x64
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834}.Release|x86.ActiveCfg = Release|Win32
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B2DB50C-C4EC-43AA-A722-461F0B711834} = {9974849A-244A-42D0-BE5C-B29F8F67FA5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E70BCE66-5281-4495-BFAF-F14ABE163936}
