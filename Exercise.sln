@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58_LengthOfLastWord", "58_L
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "680_ValidPalindrome", "680_ValidPalindrome\680_ValidPalindrome.vcxproj", "{24F249F2-BD98-4149-A4F3-C63CCDC5E574}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_LongestCommonPrefix", "14_LongestCommonPrefix\14_LongestCommonPrefix.vcxproj", "{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -107,6 +109,14 @@ Global
 		{24F249F2-BD98-4149-A4F3-C63CCDC5E574}.Release|x64.Build.0 = Release|x64
 		{24F249F2-BD98-4149-A4F3-C63CCDC5E574}.Release|x86.ActiveCfg = Release|Win32
 		{24F249F2-BD98-4149-A4F3-C63CCDC5E574}.Release|x86.Build.0 = Release|Win32
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}.Debug|x64.ActiveCfg = Debug|x64
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}.Debug|x64.Build.0 = Debug|x64
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}.Debug|x86.Build.0 = Debug|Win32
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}.Release|x64.ActiveCfg = Release|x64
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}.Release|x64.Build.0 = Release|x64
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}.Release|x86.ActiveCfg = Release|Win32
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +131,7 @@ Global
 		{8D239169-5E93-4D8D-9A27-C95BAB719A99} = {78E00B9F-CB77-4465-8D63-67A78BA62152}
 		{23620D46-64C2-4767-9D12-E8FD81155F5B} = {78E00B9F-CB77-4465-8D63-67A78BA62152}
 		{24F249F2-BD98-4149-A4F3-C63CCDC5E574} = {78E00B9F-CB77-4465-8D63-67A78BA62152}
+		{1AA0824F-A19B-4EA5-B3CA-D63C527DFD38} = {78E00B9F-CB77-4465-8D63-67A78BA62152}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E70BCE66-5281-4495-BFAF-F14ABE163936}
