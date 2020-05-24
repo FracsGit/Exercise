@@ -3,9 +3,8 @@
 #include<unordered_map>
 using namespace std;
 
-unordered_map <char, int> ori, cnt;
 
-bool check() 
+bool check(unordered_map <char, int> &ori, unordered_map <char, int> &cnt)
 {
 	for (const auto &p : ori) 
 	{
@@ -20,6 +19,8 @@ bool check()
 
 string minWindow(string s, string t) 
 {
+	unordered_map <char, int> ori, cnt;
+
 	for (const auto &c : t) 
 	{
 		++ori[c];
@@ -34,7 +35,7 @@ string minWindow(string s, string t)
 		{
 				++cnt[s[r]];
 		}
-		while (check() && l <= r) 
+		while (check(ori, cnt) && l <= r)
 		{
 			if (r - l + 1 < len) 
 			{
