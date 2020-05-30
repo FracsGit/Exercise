@@ -12,15 +12,7 @@ namespace SimpleEvent
 
         public virtual void Cast()
         {
-            if (CastTriger != null)
-            {
-                CastTriger(ref x); /* 事件被触发 */
-                Console.WriteLine(x);
-            }
-            else
-            {
-                Console.WriteLine("event not fire");
-            }
+            CastTriger?.Invoke(ref x); /* 事件被触发 */
         }
     }
 
