@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 namespace SimpleEvent
 {
     using System;
@@ -14,13 +15,7 @@ namespace SimpleEvent
         {
             CastTriger?.Invoke(ref x); /* 事件被触发 */
         }
-    }
-
-    struct TestStruct
-    {
-        public int[] val;
-    }
-    
+    }    
 
     /***********订阅器类***********/
 
@@ -39,13 +34,43 @@ namespace SimpleEvent
         }
     }
 
+    public class Attribute
+    {
+        public readonly static Dictionary<string, int> index = InitDictionary();
+        private static Dictionary<string, int> InitDictionary()
+        {
+            Dictionary<string, int> dictionary = new Dictionary<string, int>();
+            List<string> attriList = new List<string> { "hpMaxBase" , "mpMaxBase", "hpRegBase", "mpRegBase",
+                "conBase", "strBase", "dexBase", "itgBase", "defBase", "resBase", "hpMaxPct", "mpMaxPct",
+                "hpRegPct", "mpRegPct", "conPct", "strPct", "dexPct", "itgPct", "defPct", "resPct",
+                "deArmor", "deRes", "deArmorPct", "deResPct", "crt", "crtDmg", "acc", "eva", "accPct", "evaPct",
+                "stealLife", "stealMana", "physDmgRdc", "magicDmgRdc", "dmgRdc", "dmgPhysics", "dmgMagic",
+                "dmgPure", "dmgFire", "dmgWater", "dmgWind", "dmgEarth", "dmgLight", "dmgDark", "dmgThunder" };
+            int size = attriList.Count;
+            for (int i = 0; i < size; ++i)
+            {
+                dictionary.Add(attriList[i], i);
+            }
+            return dictionary;
+        }
+
+        public int[] val = new int[45];
+    }
+
     /***********触发***********/
     public class MainClass
     {
         public static void Main()
         {
-            TestStruct a = new TestStruct();
-            Console.WriteLine(a.val[0]);
+            int x;
+            if (Attribute.index.ContainsKey("aaa"))
+                x = Attribute.index["aaa"];
+
+
+            foreach (KeyValuePair<string, int> kvp in Attribute.index)
+            {
+                Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+            }
 
             Console.ReadKey();
         }
