@@ -4,50 +4,51 @@
 using namespace std;
 
 int min_prime[1000010], prime[100010];
-int g[1000010];
+int minSplit[1000010];
 
 int splitArray(vector<int>& nums) 
 {
-	int n = nums.size(), m = 2;
-	for (int i = 0; i < n; i++)
-		m = max(m, nums[i]);
-	for (int i = 2; i <= m; i++) 
+	//找出最大数
+	int size = nums.size();
+	int big = 2;
+	for (int x : nums)
+		big = max(x, big);
+
+	//筛选出最大数下的所有质数
+	for (int i = 2; i <= big; ++i)
 	{
-		if (!min_prime[i]) 
+		if (!min_prime[i])
 		{
 			prime[++prime[0]] = i;
-			min_prime[i] = i;
-		}
-		for (int j = 1; j <= prime[0]; j++) 
-		{
-			if (i > m / prime[j]) 
-				break;
-			min_prime[i * prime[j]] = prime[j];
-			if (i % prime[j] == 0) 
-				break;
+			for (int j = 1; i * j <= big; ++j)
+			{
+				if(!min_prime[i * j])
+					min_prime[i * j] = i;
+			}
 		}
 	}
 
-	for (int j = 1; j <= prime[0]; j++) 
-		g[prime[j]] = n;
+	for (int j = 1; j <= prime[0]; ++j)
+		minSplit[prime[j]] = size;
 	for (int x = nums[0]; x > 1; x /= min_prime[x])
-		g[min_prime[x]] = 0;
+		minSplit[min_prime[x]] = 1;
 
-	int ans = 1;
-	for (int i = 0; i < n; i++) 
+	int answer = 1;
+	for (int i = 0; i < size - 1; ++i)
 	{
-		ans = i + 1;
 		for (int x = nums[i]; x > 1; x /= min_prime[x])
-			ans = min(g[min_prime[x]] + 1, ans);
+			answer = min(minSplit[min_prime[x]], answer);
 
-		if (i == n - 1) 
-			break;
-
+		//更新新添数的最短分割
+		++answer;
 		for (int x = nums[i + 1]; x > 1; x /= min_prime[x])
-			g[min_prime[x]] = min(g[min_prime[x]], ans);
+			minSplit[min_prime[x]] = min(minSplit[min_prime[x]], answer);
 	}
 
-	return ans;
+	for (int x = nums[size - 1]; x > 1; x /= min_prime[x])
+		answer = min(minSplit[min_prime[x]], answer);
+
+	return answer;
 }
 
 int main()
