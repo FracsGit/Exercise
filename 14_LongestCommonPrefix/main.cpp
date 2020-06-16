@@ -24,18 +24,17 @@ string GetCommonString(string& s1, string& s2)
 	return common;
 }
 
-
 string longestCommonPrefix(vector<string>& strs) 
 {
-	if (strs.size() == 0)
+	int size = strs.size();
+	if (size == 0)
 		return "";
-	if (strs.size() == 0)
+	if (size == 1)
 		return strs[0];
+
 	string common(strs[0]);
-	for (int i = 1;i < static_cast<int>(strs.size()); ++i)
-	{
+	for (int i = 1;i < size; ++i)
 		common = GetCommonString(common, strs[i]);
-	}
 
 	return common;
 }
