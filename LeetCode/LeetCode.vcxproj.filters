@@ -21,12 +21,18 @@
     <ClCompile Include="S_139_WordBreak.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="I_02_01_RemoveDuplicateNodes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="S_139_WordBreak.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="I_02_01_RemoveDuplicateNodes.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
