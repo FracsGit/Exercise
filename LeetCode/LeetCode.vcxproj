@@ -118,11 +118,13 @@
     <ClCompile Include="I_02_01_RemoveDuplicateNodes.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="S_139_WordBreak.cpp" />
+    <ClCompile Include="S_209_MinSubArrayLen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="I_02_01_RemoveDuplicateNodes.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="S_139_WordBreak.h" />
+    <ClInclude Include="S_209_MinSubArrayLen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
