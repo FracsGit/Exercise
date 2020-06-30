@@ -30,6 +30,9 @@
     <ClCompile Include="S_215_FindKthLargest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="O_09_CQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -45,6 +48,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="S_215_FindKthLargest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="O_09_CQueue.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
