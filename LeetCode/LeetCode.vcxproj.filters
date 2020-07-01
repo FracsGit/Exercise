@@ -33,6 +33,9 @@
     <ClCompile Include="O_09_CQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_718_FindLength.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
