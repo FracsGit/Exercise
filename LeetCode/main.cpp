@@ -2,11 +2,12 @@
 
 int main()
 {
-	int findLength(vector<int>& A, vector<int>& B);
-	vector<int> A = { 2, 3, 2, 1 };
-	vector<int> B = { 3, 2, 1, 4, 7 };
-	cout << findLength(A, B) << endl;
+	int kthSmallest(vector<vector<int>>& matrix, int k);
+	
+	int k = 1;
+	vector<vector<int>> matrix = { {2000000000} };
 
+	cout << kthSmallest(matrix, k) << endl;
 
 	system("Pause");
 	return 0;
