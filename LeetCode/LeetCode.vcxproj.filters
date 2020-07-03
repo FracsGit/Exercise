@@ -39,6 +39,9 @@
     <ClCompile Include="S_378_KthSmallest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_108_SortedArrayToBST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -57,6 +60,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="O_09_CQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

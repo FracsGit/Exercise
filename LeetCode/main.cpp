@@ -2,12 +2,11 @@
 
 int main()
 {
-	int kthSmallest(vector<vector<int>>& matrix, int k);
-	
-	int k = 1;
-	vector<vector<int>> matrix = { {2000000000} };
+	TreeNode* sortedArrayToBST(vector<int>& nums);
 
-	cout << kthSmallest(matrix, k) << endl;
+	vector<int> nums = {  };
+
+	TreeNode* root = sortedArrayToBST(nums);
 
 	system("Pause");
 	return 0;
