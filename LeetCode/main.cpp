@@ -2,11 +2,11 @@
 
 int main()
 {
-	TreeNode* sortedArrayToBST(vector<int>& nums);
+	int longestValidParentheses(string s);
 
-	vector<int> nums = {  };
+	string s = "(()()())())())()";
 
-	TreeNode* root = sortedArrayToBST(nums);
+	cout << longestValidParentheses(s) << endl;
 
 	system("Pause");
 	return 0;
