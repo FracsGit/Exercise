@@ -48,6 +48,9 @@
     <ClCompile Include="S_44_IsMatch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_63_UniquePathsWithObstacles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
