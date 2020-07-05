@@ -2,11 +2,12 @@
 
 int main()
 {
-	int longestValidParentheses(string s);
+	bool isMatch(string s, string p);
 
-	string s = "(()()())())())()";
+	string s = "aaab";
+	string p = "b**";
 
-	cout << longestValidParentheses(s) << endl;
+	cout << isMatch(s, p) << endl;
 
 	system("Pause");
 	return 0;
