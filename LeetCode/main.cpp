@@ -2,11 +2,11 @@
 
 int main()
 {
-	int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid);
+	bool buddyStrings(string A, string B);
 
-	vector<vector<int>> obstacleGrid = { {0,0,1,0}, {0,1,0,0},{0,0,0,0} };
-
-	cout << uniquePathsWithObstacles(obstacleGrid) << endl;
+	string A = "ab";
+	string B = "ab";
+	cout << buddyStrings(A, B) << endl;
 
 	system("Pause");
 	return 0;
