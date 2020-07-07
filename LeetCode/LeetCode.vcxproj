@@ -119,6 +119,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="O_09_CQueue.cpp" />
     <ClCompile Include="S_108_SortedArrayToBST.cpp" />
+    <ClCompile Include="S_112_HasPathSum.cpp" />
     <ClCompile Include="S_139_WordBreak.cpp" />
     <ClCompile Include="S_209_MinSubArrayLen.cpp" />
     <ClCompile Include="S_215_FindKthLargest.cpp" />
