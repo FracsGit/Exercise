@@ -2,11 +2,12 @@
 
 int main()
 {
-	bool buddyStrings(string A, string B);
+	int respace(vector<string>& dictionary, string sentence);
 
-	string A = "ab";
-	string B = "ab";
-	cout << buddyStrings(A, B) << endl;
+	vector<string> dictionary = { "looked", "just", "like", "her", "brother" };
+	string sentence = "jesslookedjustliketimherbrother";
+	
+	cout << respace(dictionary, sentence) << endl;
 
 	system("Pause");
 	return 0;

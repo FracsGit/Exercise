@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="I_02_01_RemoveDuplicateNodes.cpp" />
     <ClCompile Include="I_16_11_DivingBoard.cpp" />
+    <ClCompile Include="I_17_13_Respace.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="O_09_CQueue.cpp" />
     <ClCompile Include="S_108_SortedArrayToBST.cpp" />
