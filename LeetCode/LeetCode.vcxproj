@@ -125,6 +125,7 @@
     <ClCompile Include="S_139_WordBreak.cpp" />
     <ClCompile Include="S_209_MinSubArrayLen.cpp" />
     <ClCompile Include="S_215_FindKthLargest.cpp" />
+    <ClCompile Include="S_309_MaxProfit.cpp" />
     <ClCompile Include="S_32_LongestValidParentheses.cpp" />
     <ClCompile Include="S_378_KthSmallest.cpp" />
     <ClCompile Include="S_44_IsMatch.cpp" />
