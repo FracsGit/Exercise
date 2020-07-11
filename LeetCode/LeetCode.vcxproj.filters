@@ -66,6 +66,9 @@
     <ClCompile Include="S_309_MaxProfit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_315_CountSmaller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

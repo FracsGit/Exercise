@@ -2,12 +2,13 @@
 
 int main()
 {
-	int respace(vector<string>& dictionary, string sentence);
+	vector<int> countSmaller(vector<int>& nums);
 
-	vector<string> dictionary = { "looked", "just", "like", "her", "brother" };
-	string sentence = "jesslookedjustliketimherbrother";
+	vector<int> nums = { 5,2,2,6,1 };
 	
-	cout << respace(dictionary, sentence) << endl;
+	vector<int> result = countSmaller(nums);
+	for(int x:result)
+		cout << x << endl;
 
 	system("Pause");
 	return 0;
