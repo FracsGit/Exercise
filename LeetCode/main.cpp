@@ -2,13 +2,11 @@
 
 int main()
 {
-	vector<int> countSmaller(vector<int>& nums);
+	int calculateMinimumHP(vector<vector<int>>& dungeon);
 
-	vector<int> nums = { 5,2,2,6,1 };
+	vector<vector<int>> dungeon = { {-2,-3,3},{-5,-10,1},{10,30,-5} };
 	
-	vector<int> result = countSmaller(nums);
-	for(int x:result)
-		cout << x << endl;
+	cout << calculateMinimumHP(dungeon) << endl;
 
 	system("Pause");
 	return 0;
