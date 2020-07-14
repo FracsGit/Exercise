@@ -2,11 +2,10 @@
 
 int main()
 {
-	int calculateMinimumHP(vector<vector<int>>& dungeon);
-
-	vector<vector<int>> dungeon = { {-2,-3,3},{-5,-10,1},{10,30,-5} };
+	int minimumTotal(vector<vector<int>>& triangle);
+	vector<vector<int>> triangle = { {2},{3, 4},{6, 5, 7},{4, 1, 8, 3} };
 	
-	cout << calculateMinimumHP(dungeon) << endl;
+	cout << minimumTotal(triangle) << endl;
 
 	system("Pause");
 	return 0;
