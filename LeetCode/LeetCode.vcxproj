@@ -136,6 +136,7 @@
     <ClCompile Include="S_63_UniquePathsWithObstacles.cpp" />
     <ClCompile Include="S_718_FindLength.cpp" />
     <ClCompile Include="S_859_BuddyStrings.cpp" />
+    <ClCompile Include="S_96_NumTrees.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="I_02_01_RemoveDuplicateNodes.h" />

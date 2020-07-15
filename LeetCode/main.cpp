@@ -2,10 +2,9 @@
 
 int main()
 {
-	int minimumTotal(vector<vector<int>>& triangle);
-	vector<vector<int>> triangle = { {2},{3, 4},{6, 5, 7},{4, 1, 8, 3} };
-	
-	cout << minimumTotal(triangle) << endl;
+	int numTrees(int n);
+	/*1 1 2 5 14 42 132*/
+	cout << numTrees(6) << endl;
 
 	system("Pause");
 	return 0;

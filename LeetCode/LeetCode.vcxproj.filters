@@ -78,6 +78,9 @@
     <ClCompile Include="S_120_MinimumTotal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_96_NumTrees.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
