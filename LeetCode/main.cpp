@@ -2,9 +2,10 @@
 
 int main()
 {
-	int numTrees(int n);
-	/*1 1 2 5 14 42 132*/
-	cout << numTrees(6) << endl;
+	bool isBipartite(vector<vector<int>>& graph);
+	vector<vector<int>> graph = { {1, 3},{0, 2},{1, 3},{0, 2} };
+
+	cout << isBipartite(graph) << endl;
 
 	system("Pause");
 	return 0;
