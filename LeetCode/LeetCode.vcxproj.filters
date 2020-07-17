@@ -84,6 +84,9 @@
     <ClCompile Include="S_785_IsBipartite.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_35_SearchInsert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

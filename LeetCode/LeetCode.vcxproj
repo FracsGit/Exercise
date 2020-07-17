@@ -131,6 +131,7 @@
     <ClCompile Include="S_315_CountSmaller.cpp" />
     <ClCompile Include="S_32_LongestValidParentheses.cpp" />
     <ClCompile Include="S_350_Intersect.cpp" />
+    <ClCompile Include="S_35_SearchInsert.cpp" />
     <ClCompile Include="S_378_KthSmallest.cpp" />
     <ClCompile Include="S_44_IsMatch.cpp" />
     <ClCompile Include="S_63_UniquePathsWithObstacles.cpp" />
