@@ -2,10 +2,12 @@
 
 int main()
 {
-	bool isBipartite(vector<vector<int>>& graph);
-	vector<vector<int>> graph = { {1, 3},{0, 2},{1, 3},{0, 2} };
+	bool isInterleave(string s1, string s2, string s3);
+	string s1 = "bbbbbabbbbabaababaaaabbababbaaabbabbaaabaaaaababbbababbbbbabbbbababbabaabababbbaabababababbbaaababaa";
+	string s2 = "babaaaabbababbbabbbbaabaabbaabbbbaabaaabaababaaaabaaabbaaabaaaabaabaabbbbbbbbbbbabaaabbababbabbabaab";
+	string s3 = "babbbabbbaaabbababbbbababaabbabaabaaabbbbabbbaaabbbaaaaabbbbaabbaaabababbaaaaaabababbababaababbababbbababbbbaaaabaabbabbaaaaabbabbaaaabbbaabaaabaababaababbaaabbbbbabbbbaabbabaabbbbabaaabbababbabbabbab";
 
-	cout << isBipartite(graph) << endl;
+	cout << isInterleave(s1, s2, s3) << endl;
 
 	system("Pause");
 	return 0;

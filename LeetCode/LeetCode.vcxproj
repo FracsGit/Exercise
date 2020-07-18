@@ -139,6 +139,7 @@
     <ClCompile Include="S_785_IsBipartite.cpp" />
     <ClCompile Include="S_859_BuddyStrings.cpp" />
     <ClCompile Include="S_96_NumTrees.cpp" />
+    <ClCompile Include="S_97_ IsInterleave.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="I_02_01_RemoveDuplicateNodes.h" />
