@@ -90,6 +90,9 @@
     <ClCompile Include="S_97_ IsInterleave.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_312_MaxCoins.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

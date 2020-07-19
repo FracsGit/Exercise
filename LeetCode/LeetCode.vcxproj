@@ -128,6 +128,7 @@
     <ClCompile Include="S_209_MinSubArrayLen.cpp" />
     <ClCompile Include="S_215_FindKthLargest.cpp" />
     <ClCompile Include="S_309_MaxProfit.cpp" />
+    <ClCompile Include="S_312_MaxCoins.cpp" />
     <ClCompile Include="S_315_CountSmaller.cpp" />
     <ClCompile Include="S_32_LongestValidParentheses.cpp" />
     <ClCompile Include="S_350_Intersect.cpp" />

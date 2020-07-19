@@ -2,12 +2,11 @@
 
 int main()
 {
-	bool isInterleave(string s1, string s2, string s3);
-	string s1 = "bbbbbabbbbabaababaaaabbababbaaabbabbaaabaaaaababbbababbbbbabbbbababbabaabababbbaabababababbbaaababaa";
-	string s2 = "babaaaabbababbbabbbbaabaabbaabbbbaabaaabaababaaaabaaabbaaabaaaabaabaabbbbbbbbbbbabaaabbababbabbabaab";
-	string s3 = "babbbabbbaaabbababbbbababaabbabaabaaabbbbabbbaaabbbaaaaabbbbaabbaaabababbaaaaaabababbababaababbababbbababbbbaaaabaabbabbaaaaabbabbaaaabbbaabaaabaababaababbaaabbbbbabbbbaabbabaabbbbabaaabbababbabbabbab";
+	int maxCoins(vector<int>& nums);
 
-	cout << isInterleave(s1, s2, s3) << endl;
+	vector<int> nums = { 24,5,4,9 };
+
+	cout << maxCoins(nums) << endl;
 
 	system("Pause");
 	return 0;
