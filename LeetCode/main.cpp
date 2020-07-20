@@ -2,11 +2,15 @@
 
 int main()
 {
-	int maxCoins(vector<int>& nums);
+	vector<int> twoSum(vector<int>& numbers, int target);
 
-	vector<int> nums = { 24,5,4,9 };
+	vector<int> numbers = { 2, 7, 11, 15 };
+	int target = 12;
 
-	cout << maxCoins(nums) << endl;
+	for (int x : twoSum(numbers, target))
+	{
+		cout << x << endl;
+	}
 
 	system("Pause");
 	return 0;

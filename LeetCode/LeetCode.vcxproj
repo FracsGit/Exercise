@@ -124,6 +124,7 @@
     <ClCompile Include="S_112_HasPathSum.cpp" />
     <ClCompile Include="S_120_MinimumTotal.cpp" />
     <ClCompile Include="S_139_WordBreak.cpp" />
+    <ClCompile Include="S_167_TwoSum.cpp" />
     <ClCompile Include="S_174_CalculateMinimumHP.cpp" />
     <ClCompile Include="S_209_MinSubArrayLen.cpp" />
     <ClCompile Include="S_215_FindKthLargest.cpp" />
