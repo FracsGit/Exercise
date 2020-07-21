@@ -2,15 +2,9 @@
 
 int main()
 {
-	vector<int> twoSum(vector<int>& numbers, int target);
+	vector<TreeNode*> generateTrees(int n);
 
-	vector<int> numbers = { 2, 7, 11, 15 };
-	int target = 12;
-
-	for (int x : twoSum(numbers, target))
-	{
-		cout << x << endl;
-	}
+	vector<TreeNode*> vec = generateTrees(3);
 
 	system("Pause");
 	return 0;
