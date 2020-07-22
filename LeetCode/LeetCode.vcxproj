@@ -120,6 +120,7 @@
     <ClCompile Include="I_17_13_Respace.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="O_09_CQueue.cpp" />
+    <ClCompile Include="O_11_MinArray.cpp" />
     <ClCompile Include="S_108_SortedArrayToBST.cpp" />
     <ClCompile Include="S_112_HasPathSum.cpp" />
     <ClCompile Include="S_120_MinimumTotal.cpp" />

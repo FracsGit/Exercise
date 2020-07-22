@@ -99,6 +99,9 @@
     <ClCompile Include="S_95_GenerateTrees.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="O_11_MinArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
