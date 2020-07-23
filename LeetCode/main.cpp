@@ -2,11 +2,11 @@
 
 int main()
 {
-	int minArray(vector<int>& numbers);
+	int minPathSum(vector<vector<int>>& grid);
 
-	vector<int> numbers = { 1,1,1,1,0,1 };
+	vector<vector<int>> grid = { {1, 3, 1},{1, 5, 1},{4, 2, 1} };
 
-	cout << minArray(numbers) << endl;
+	cout << minPathSum(grid) << endl;
 
 	system("Pause");
 	return 0;

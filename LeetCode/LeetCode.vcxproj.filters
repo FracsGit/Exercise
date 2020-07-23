@@ -102,6 +102,9 @@
     <ClCompile Include="O_11_MinArray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_64_MinPathSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

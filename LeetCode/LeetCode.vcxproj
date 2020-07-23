@@ -138,6 +138,7 @@
     <ClCompile Include="S_378_KthSmallest.cpp" />
     <ClCompile Include="S_44_IsMatch.cpp" />
     <ClCompile Include="S_63_UniquePathsWithObstacles.cpp" />
+    <ClCompile Include="S_64_MinPathSum.cpp" />
     <ClCompile Include="S_718_FindLength.cpp" />
     <ClCompile Include="S_785_IsBipartite.cpp" />
     <ClCompile Include="S_859_BuddyStrings.cpp" />
