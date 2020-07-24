@@ -105,6 +105,9 @@
     <ClCompile Include="S_64_MinPathSum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_1025_DivisorGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

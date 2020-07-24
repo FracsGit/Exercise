@@ -2,11 +2,9 @@
 
 int main()
 {
-	int minPathSum(vector<vector<int>>& grid);
+	bool divisorGame(int N);
 
-	vector<vector<int>> grid = { {1, 3, 1},{1, 5, 1},{4, 2, 1} };
-
-	cout << minPathSum(grid) << endl;
+	cout << divisorGame(1000) << endl;
 
 	system("Pause");
 	return 0;
