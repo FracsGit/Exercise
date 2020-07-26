@@ -111,6 +111,9 @@
     <ClCompile Include="S_410_SplitArray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_219_LongestIncreasingPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

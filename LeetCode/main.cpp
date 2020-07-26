@@ -2,12 +2,11 @@
 
 int main()
 {
-	int splitArray(vector<int>& nums, int m);
+	int longestIncreasingPath(vector<vector<int>>& matrix);
+ 
+	vector<vector<int>> matrix = {};
 
-	vector<int> nums = { 7, 2, 5, 10, 8 };
-	int m = 2;
-
-	cout << splitArray(nums, m) << endl;
+	cout << longestIncreasingPath(matrix) << endl;
 
 	system("Pause");
 	return 0;
