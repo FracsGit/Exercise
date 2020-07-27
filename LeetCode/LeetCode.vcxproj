@@ -138,6 +138,7 @@
     <ClCompile Include="S_350_Intersect.cpp" />
     <ClCompile Include="S_35_SearchInsert.cpp" />
     <ClCompile Include="S_378_KthSmallest.cpp" />
+    <ClCompile Include="S_392_IsSubsequence.cpp" />
     <ClCompile Include="S_410_SplitArray.cpp" />
     <ClCompile Include="S_44_IsMatch.cpp" />
     <ClCompile Include="S_63_UniquePathsWithObstacles.cpp" />
