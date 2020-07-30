@@ -2,11 +2,9 @@
 
 int main()
 {
-	int longestIncreasingPath(vector<vector<int>>& matrix);
- 
-	vector<vector<int>> matrix = {};
+	int integerBreak(int n);
 
-	cout << longestIncreasingPath(matrix) << endl;
+	cout << integerBreak(5) << endl;
 
 	system("Pause");
 	return 0;

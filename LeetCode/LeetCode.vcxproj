@@ -136,6 +136,7 @@
     <ClCompile Include="S_312_MaxCoins.cpp" />
     <ClCompile Include="S_315_CountSmaller.cpp" />
     <ClCompile Include="S_32_LongestValidParentheses.cpp" />
+    <ClCompile Include="S_343_IntegerBreak.cpp" />
     <ClCompile Include="S_350_Intersect.cpp" />
     <ClCompile Include="S_35_SearchInsert.cpp" />
     <ClCompile Include="S_378_KthSmallest.cpp" />
