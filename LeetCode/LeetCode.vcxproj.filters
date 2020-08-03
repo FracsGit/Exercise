@@ -126,6 +126,9 @@
     <ClCompile Include="S_114_Flatten.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S_415_AddStrings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
