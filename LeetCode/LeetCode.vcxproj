@@ -130,6 +130,7 @@
     <ClCompile Include="S_139_WordBreak.cpp" />
     <ClCompile Include="S_167_TwoSum.cpp" />
     <ClCompile Include="S_174_CalculateMinimumHP.cpp" />
+    <ClCompile Include="S_207_CanFinish.cpp" />
     <ClCompile Include="S_209_MinSubArrayLen.cpp" />
     <ClCompile Include="S_215_FindKthLargest.cpp" />
     <ClCompile Include="S_219_LongestIncreasingPath.cpp" />
