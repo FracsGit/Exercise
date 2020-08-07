@@ -121,6 +121,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="O_09_CQueue.cpp" />
     <ClCompile Include="O_11_MinArray.cpp" />
+    <ClCompile Include="S_100_IsSameTree.cpp" />
     <ClCompile Include="S_1025_DivisorGame.cpp" />
     <ClCompile Include="S_104_MaxDepth.cpp" />
     <ClCompile Include="S_108_SortedArrayToBST.cpp" />
