@@ -2,15 +2,12 @@
 
 int main()
 {
-	void flatten(TreeNode* root);
+	vector<string> restoreIpAddresses(string s);
+	
+	vector<string> result = restoreIpAddresses("25525511135");
 
-	TreeNode* root = new TreeNode(1);
-	root->left = new TreeNode(2);
-	root->right = new TreeNode(5);
-	flatten(root);
-
-
-	//cout << integerBreak(5) << endl;
+	for (string s : result)
+		cout << s << endl;
 
 	system("Pause");
 	return 0;
